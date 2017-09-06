@@ -163,7 +163,7 @@ body {
 
 .navbar {
 	font-size: 14px;
-  font-family: 'Nunito';
+  	font-family: 'Nunito';
 	font-weight: 500;
 	text-transform: uppercase;
 	padding-top: 25px;
@@ -1613,8 +1613,8 @@ body {
 }
 
 .footer .ft-right p {
-	font-family: 'Roboto';
-	font-size: 12px;
+	font-family: 'Nunito';
+	font-size: 14px;
 	color: #848484;
 	line-height: 1.5;
 	letter-spacing: 0;
@@ -1927,4 +1927,20 @@ ul{
 
 li{
 	font-family: 'Nunito';
+}
+
+.team-info{
+	margin: 4%;
+}
+
+.team-info h1 {
+	font-family: 'Nunito';
+	font-size: 20px;
+	margin: 4% 0%;
+}
+
+.team-info p {
+	font-family: 'Nunito';
+	font-size: 16px;
+	line-height: 1.3;
 }
