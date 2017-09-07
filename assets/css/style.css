@@ -483,11 +483,22 @@ body {
 	max-width: 100%;
 }
 
-.hero .intro {
+.hero .intro{
 	padding-top: 15%;
 	max-width: 40%;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.hero .arrow{
+	margin: 0 auto;
+	text-align: center;
+	width: 30%;
+}
+
+.hero .arrow img{
+	width: 50px;
+	padding-top: 50%;
 }
 
 .hero .intro h1 {
