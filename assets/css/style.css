@@ -74,8 +74,8 @@ table {
 /* --- Common Styles ---*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Nunito';
-  font-size: 16px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+  	font-size: 16px;
 }
 
 p {
@@ -163,7 +163,7 @@ body {
 
 .navbar {
 	font-size: 14px;
-  	font-family: 'Nunito';
+  	font-family: 'Ubuntu Condensed', sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
 	padding-top: 25px;
@@ -199,10 +199,10 @@ body {
   }
 
 .navbar-default .navbar-brand {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 21px;
 	font-weight: 700;
-	color: #41CD52;
+	color: #2cba83;
 	letter-spacing: 0;
 	line-height: 1;
 	text-transform: none;
@@ -221,7 +221,7 @@ body {
 
 
 .navbar-default .navbar-nav > li > a {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 15px;
   font-weight: 700;
   text-transform: capitalize;
@@ -232,23 +232,23 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #41CD52;
+  color: #2cba83;
 }
 
 .navbar-default .navbar-nav > .active > a {
   background: transparent;
-  color: #41CD52;
+  color: #2cba83;
   }
 
 
 .navbar-default .navbar-nav > .active > a:hover {
     background: transparent;
-    color: #41CD52;
+    color: #2cba83;
 }
 
 .navbar-default .navbar-nav > .active > a:focus {
 	background: transparent;
-  color: #41CD52;
+  color: #2cba83;
 }
 
 .navbar-default .navbar-collapse {
@@ -273,7 +273,7 @@ body {
 }
 
 .navbar .btn-nav {
-  background: #41CD52;
+  background: #2cba83;
   color: #FFFFFF;
   border-radius: 0.7rem;
 	box-shadow: 0 3px 10px rgba(65,205,82,.5);
@@ -284,7 +284,7 @@ body {
 }
 
 .navbar .btn-nav span {
-  font-family: 'Nunito';
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 14px;
 	font-weight: 700;
   text-transform: capitalize;
@@ -293,9 +293,9 @@ body {
 
 
 .navbar .btn-nav:hover {
-  background: #41CD52;
+  background: #2cba83;
   color: #FFFFFF;
-  border-color: #41CD52;
+  border-color: #2cba83;
 	box-shadow: 0 5px 10px rgba(65,205,82,.5);
 }
 
@@ -311,7 +311,7 @@ body {
 
   .navbar-default {
     border: 0px;
-    background-color: transparent;
+    background-color: #fff;
   }
 
 	.navbar-default .navbar-collapse {
@@ -336,12 +336,12 @@ body {
 	}
 
   .navbar-default .navbar-brand {
-    color: #41CD52;
+    color: #2cba83;
 		padding: 15px 15px !important;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: #41CD52;
+    background-color: #2cba83;
   }
 
 	.navbar .btn-nav {
@@ -375,12 +375,12 @@ body {
 }
 
 .navbar-default.past-main .navbar-brand {
-	color: #41CD52;
+	color: #2cba83;
 	padding: 5px;
 }
 
 .navbar-default.past-main .navbar-toggle .icon-bar {
-	background-color: #41CD52;
+	background-color: #2cba83;
 }
 
 .navbar-default.past-main .navbar-nav > li > a {
@@ -390,23 +390,23 @@ body {
 }
 
 .navbar-default.past-main .navbar-nav > li > a:hover {
-  color: #41CD52;
+  color: #2cba83;
 }
 
 .navbar-default.past-main .navbar-nav > .active > a {
   background: transparent;
-  color: #41CD52;
+  color: #2cba83;
   }
 
 
 .navbar-default.past-main .navbar-nav > .active > a:hover {
     background: transparent;
-    color: #41CD52;
+    color: #2cba83;
 }
 
 .navbar-default.past-main .navbar-nav > .active > a:focus {
 	background: transparent;
-  color: #41CD52;
+  color: #2cba83;
 }
 
 .navbar-default.past-main .btn-nav {
@@ -486,7 +486,7 @@ body {
 }
 
 .hero .intro h1 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 42px;
 	font-weight: 400;
 	line-height: 1.1;
@@ -495,7 +495,7 @@ body {
 }
 
 .hero .intro h3 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 1.1;
@@ -511,7 +511,7 @@ body {
 }
 
 .hero .intro p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.4;
@@ -524,7 +524,7 @@ body {
 }
 
 .hero .form-footer p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	color: #5d6A7B;
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -550,7 +550,7 @@ body {
 
 .hero-2 .intro p {
 	font-size: 14px;
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	line-height: 1.4;
 	color: #848484;
 	max-width: 400px;
@@ -559,9 +559,9 @@ body {
 
 .btn-action {
   padding: 0.5rem 1.5rem;
-	background: #41CD52;
+	background: #2cba83;
 	border: 1px solid;
-	border-color: #41CD52;
+	border-color: #2cba83;
   border-radius: .125rem;
 	box-shadow: 0 10px 30px rgba(65,205,82,.5);
 	margin: 24px 12px 0 0;
@@ -572,23 +572,23 @@ body {
 
 .btn-action:hover {
 	color: #FFFFFF;
-	border-color: #41CD52;
-	background: #41CD52;
+	border-color: #2cba83;
+	background: #2cba83;
 	-webkit-transform: translateY(-2px);
 	-moz-transform: translateY(-2px);
 	transform: translateY(-2px);
 }
 
 .intro .btn-action {
-	background: #41CD52;
+	background: #2cba83;
 }
 
 .intro .btn-action:hover {
-	background: #41CD52;
+	background: #2cba83;
 }
 
 .btn-action span {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 12px;
   font-weight: 700;
   text-transform: capitalize;
@@ -599,7 +599,7 @@ body {
 
 
 .intro .btn-action span {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
   font-weight: 700;
   text-transform: capitalize;
@@ -663,7 +663,7 @@ body {
 }
 
 .flex-split .f-left  h2 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 28px;
 	color: #454545;
 	font-weight: 600;
@@ -672,7 +672,7 @@ body {
 }
 
 .flex-split .f-left  p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	color: #111111;
 	font-weight: 300;
@@ -704,7 +704,7 @@ body {
 	padding-left: 7px;
   text-decoration: none;
   text-align: center;
-  color: #41CD52;
+  color: #2cba83;
 	background: #FFFFFF;
   font-size: 34px;
   font-weight: normal;
@@ -741,14 +741,14 @@ body {
 }
 
 .points-intro h1 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 28px;
 	font-weight: 300;
 	line-height: 1.2;
 }
 
 .points-intro p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.2;
@@ -763,12 +763,12 @@ body {
 }
 
 .point-text h1 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 21px;
 }
 
 .point-text p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	color: #A1A1A1;
 	line-height: 1.4;
@@ -901,7 +901,7 @@ body {
 }
 
 .features-text p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	color: #A1A1A1;
@@ -936,7 +936,7 @@ body {
 }
 
 .pricing p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #444444;
@@ -1015,7 +1015,7 @@ body {
 
 .table-left .pricing-details span, .table-right .pricing-details span {
 	display: inline-block;
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 28px;
 	font-weight: 400;
 	color: #808080;
@@ -1030,7 +1030,7 @@ body {
 }
 
 .table-left .pricing-details p, .table-right .pricing-details p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	color: #505050;
@@ -1046,7 +1046,7 @@ body {
 
 
 .table-left .pricing-details li, .table-right .pricing-details li {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #505050;
@@ -1087,7 +1087,7 @@ body {
 }
 
 .pricing-v2 .intro h4 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 1.2;
@@ -1118,7 +1118,7 @@ body {
 }
 
 .pricing-v2 .intro a {
-	color: #41CD52;
+	color: #2cba83;
 	text-decoration: none;
 }
 
@@ -1139,7 +1139,7 @@ body {
 
 
 .pricing-v2 .btn-action span {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 12px;
   font-weight: 700;
   text-transform: capitalize;
@@ -1150,9 +1150,9 @@ body {
 
 
 .pricing-v2 .btn-action:focus {
-	background: #41CD52;
+	background: #2cba83;
 	outline: none;
-	border-color: #41CD52;
+	border-color: #2cba83;
 }
 
 
@@ -1259,7 +1259,7 @@ body {
 }
 
 .dwnld-inner .app-info h1 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 28px;
 	font-weight: 700;
 	color: #FFFFFF;
@@ -1269,7 +1269,7 @@ body {
 }
 
 .dwnld-inner .app-info h4 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	color: #FFFFFF;
 	font-weight: 400;
@@ -1283,7 +1283,7 @@ body {
 }
 
 .app-info span {
-  font-family: 'Nunito';
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: #FFFFFF;
@@ -1314,7 +1314,7 @@ body {
 }
 
 .main-2 .cta-inner h1 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 1.1;
@@ -1325,7 +1325,7 @@ body {
 }
 
 .main-2 .cta-inner h2 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 34px;
 	font-weight: 700;
 	line-height: 1.1;
@@ -1334,7 +1334,7 @@ body {
 }
 
 .main-2 .cta-inner h3 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 1.1;
@@ -1361,7 +1361,7 @@ body {
 
 
 .main-2 .cta-inner p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.2;
@@ -1376,7 +1376,7 @@ body {
 }
 
 .main-2 .cta-inner ul li {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 }
@@ -1402,7 +1402,7 @@ body {
 }
 
 .pitch-inner h4 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -1411,7 +1411,7 @@ body {
 }
 
 .pitch-inner h1 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 28px;
 	line-height: 1.2;
 	margin-top: 20px;
@@ -1419,7 +1419,7 @@ body {
 }
 
 .pitch-inner p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 	margin-top: 20px;
@@ -1479,7 +1479,7 @@ body {
 
 .formee input {
   color: #222222;
-  font-family: 'Nunito';
+  font-family: 'Ubuntu Condensed', sans-serif;
   padding: 0;
   font-size: 0.9em;
 	height: 40px;
@@ -1498,11 +1498,11 @@ body {
 
 .formee .right {
   height: 40px;
-  border: 2px solid #41CD52;
+  border: 2px solid #2cba83;
   border-radius: 0 5px 5px 0;
   margin: 0;
   padding: 0 25px 0 25px;
-  background-color: #41CD52;
+  background-color: #2cba83;
   color: #FFFFFF;
 	box-shadow: 0 0 1px transparent;
   outline: none;
@@ -1512,21 +1512,21 @@ body {
 }
 
 .formee .right:focus {
-	border: 2px solid #41CD52;
+	border: 2px solid #2cba83;
 }
 
 #email-error {
 	position: absolute;
 	left: 10%;
 	top: 150%;
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	color: #FF0000;
 }
 
 #response {
 	color: #333333;
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	margin-top: 30px;
 	font-size: 14px;
 	line-height: 1.4;
@@ -1542,7 +1542,7 @@ body {
 }
 
 .main-2 .formee .right {
-	background-color: #41CD52;
+	background-color: #2cba83;
 }
 
 /*------------ Footer Lg Styling ---------------*/
@@ -1557,7 +1557,7 @@ body {
 }
 
 .footer .ft-left p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	color: #848484;
 	line-height: 1.5;
@@ -1597,7 +1597,7 @@ body {
 }
 
 .ft-right ul li {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 2.5;
@@ -1609,11 +1609,11 @@ body {
 }
 
 .ft-right ul li a:hover {
-	color: #41CD52
+	color: #2cba83
 }
 
 .footer .ft-right p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 14px;
 	color: #848484;
 	line-height: 1.5;
@@ -1922,11 +1922,11 @@ body {
 }
 
 ul{
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 li{
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .team-info{
@@ -1934,13 +1934,13 @@ li{
 }
 
 .team-info h1 {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 20px;
 	margin: 4% 0%;
 }
 
 .team-info p {
-	font-family: 'Nunito';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 16px;
 	line-height: 1.3;
 }
