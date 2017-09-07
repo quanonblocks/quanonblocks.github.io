@@ -223,12 +223,12 @@ body {
 .navbar-default .navbar-nav > li > a {
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 15px;
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #b3b3b3;
-  -webkit-transition: all 0.5s;
+  	font-weight: 700;
+ 	text-transform: capitalize;
+  	color: #626262;
+    -webkit-transition: all 0.5s;
 	-moz-transition: all 0.5;
-  transition: all 0.5s;
+  	transition: all 0.5s;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -347,6 +347,11 @@ body {
 	.navbar .btn-nav {
 	  margin-left: 0 !important;
 	}
+
+  .navbar-header img{
+  	margin-top: 5px;
+	margin-left: 20px;
+  }
 }
 
 @media only screen and (min-width: 240px) {
