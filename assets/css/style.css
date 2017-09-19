@@ -1461,7 +1461,7 @@ body {
 }
 
 .cta-2-inner h1 {
-	font-family: 'Ubuntu Condensed', sans-serif';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 28px;
 	font-weight: 300;
 	line-height: 1.4;
@@ -1470,7 +1470,7 @@ body {
 }
 
 .cta-2-inner p {
-	font-family: 'Ubuntu Condensed', sans-serif';
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.4;
@@ -1613,8 +1613,8 @@ body {
 .ft-right ul {
 	list-style-type: none;
 	-webkit-columns: 2;
-	columns: 2;
 	padding: 0;
+	color: #2cba83;
 }
 
 .ft-right ul li {
@@ -1622,6 +1622,8 @@ body {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 2.5;
+	display: inline-block;
+	margin-top: 2%;
 }
 
 .ft-right ul li a {
@@ -1984,6 +1986,15 @@ li{
 .team-info .social-links li{
 	display: inline-block;
 	padding: 2%;
+	font-size: 20px; 
+}
+
+.team-info .social-links li i {
+	color: #2cba83;
+}
+
+.team-info .social-links li i:hover {
+	color: #388d6c;
 }
 
 .content-row {
@@ -2023,4 +2034,12 @@ li{
     margin-bottom: 15px;
     font-size: 18px;
 	font-weight: 300;
+}
+
+.ft-right .social-links-footer{
+	display: block;
+}
+
+.box-inner{
+	padding: 5% 0%;
 }
