@@ -1,0 +1,27 @@
+{
+  "name": "quanonblocks.github.io",
+  "version": "0.0.1",
+  "author": "Quanonblocks",
+  "description": "Analysis - Kernel/Notebook",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "jupyter",
+    "ipython"
+  ],
+  "license": "GPLv3",
+  "homepage": "https://quanonblocks.com/analysis",
+  "main": "jupyter-notebook.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "notebookjs": "^0.2.6",
+    "paper-spinner": "PolymerElements/paper-spinner#^1.2.1",
+    "iron-ajax": "^1.4.3"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
