@@ -1,0 +1,91 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-spinner/paper-spinner.html">
+<link rel="import" href="../iron-ajax/iron-ajax.html">
+<script src="../notebookjs/notebook.js"></script>
+
+<dom-module id="jupyter-notebook">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      a {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+    <iron-ajax auto
+      url="[[src]]"
+      handle-as="json"
+      last-error="{{requestError}}"
+      last-response="{{data}}">
+    </iron-ajax>
+    <div id="notebook">
+
+    </div>
+
+    <div class="loading" hidden$="[[!loading]]">
+      <paper-spinner active></paper-spinner>
+    </div>
+    <div class="err" hidden$="[[!_computedError(requestError, processingError)]]">
+      Sorry, the requested Jupyter Notebook loaded, but it is invalid.
+    </div>
+    <div class="err" hidden$="[[!requestError]]">
+      Sorry, the requested Jupyter Notebook could not be loaded. Please check that the resource is available:
+      <br>
+      <a href$="[[src]]">[[src]]</a>
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'jupyter-notebook',
+      properties: {
+        /**
+         *  `src` represents the url or relative path to the Jupyter notebook file
+         */
+        src: {
+          type: String,
+          value: _ => ""
+        },
+        requestError: {
+          type: Object,
+          value: function() {
+            return null
+          },
+          observer: '_onError'
+        },
+        processingError: {
+          type: Boolean,
+          value: function() { return false }
+        },
+        loading: {
+          type: Boolean,
+          value: function() { return true }
+        },
+        data: {
+          type: Object,
+          value: _ => ({}),
+          observer: '_onData'
+        }
+      },
+      _onError(error) {
+        this.loading = false;
+      },
+      _computedError: function(requestError, processingError) {
+        return !requestError && processingError
+      },
+      _onData(data) {
+        try {
+          var rendered = nb.parse(data).render();
+          this.$.notebook.appendChild(rendered);
+          this.loading = false;
+          this.processingError = false;
+        } catch(processingError) {
+          this.processingError = processingError;
+        }
+      }
+    });
+  </script>
+</dom-module>
